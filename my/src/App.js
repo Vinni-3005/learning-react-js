@@ -1,12 +1,12 @@
 import React from 'react'
-import User from './complifecycle/User'
+import Digiclock from './digitalclock/digclock'
 
 const App = () => {
   return (
     <div>
         <h1> Component life cycle example.. using axios API </h1>
         
-        <User />
+        <Digiclock />
         
     </div>
   )
