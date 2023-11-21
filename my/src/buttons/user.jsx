@@ -1,8 +1,12 @@
 import React from 'react'
-
+import {gmAction , gnAction , GM, GN} from '../redux/message/message.action'
+import {useDispatch, useSelector} from 'react-redux'
 
 const Message = () => {
-    let dispatch = useDsipatch() // first we will dispatch an action by using usedispatch
+    let dispatch = useDispatch() // first we will dispatch an action by using usedispatch
+    let message = useSelector((state) =>{
+        return state
+    })
     //create handler to handle the buttons
     let gmHandler = () => {
         //disptach redux action

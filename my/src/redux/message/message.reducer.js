@@ -6,7 +6,7 @@
 
 import {GM,GN} from './message.action'
 
-let initiaSate = {
+let initialState = {
     msg : 'Hello'
 }
 

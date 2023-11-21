@@ -1,19 +1,25 @@
-import React from 'react'
-//import Condition from './conditional rendering/ex-1'
+import React, {Component} from 'react'
+import Message from './buttons/user'
+import {store} from './redux/store'
+import {Provider} from 'react-redux'
 
-//import MultipleHandler from './conditional rendering/ex-2'
 
-import Onehandler from './conditional rendering/ex-3'
 
-const App = () => {
-  return (
-    <div>
-        <h1> Condiitional rendering example </h1>
+class App extends Component {
+  render () {
+    return (
+      <div>
+      <Provider store ={store}>
+        <h1> Redux Example </h1>
         <hr/>
-        <Onehandler />
+        <Message/>
+      </Provider>
+        
         
     </div>
-  )
+
+    )
+  }
 }
 
 export default App
