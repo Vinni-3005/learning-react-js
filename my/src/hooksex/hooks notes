@@ -1,0 +1,20 @@
+//React Hook : Hooks are functions that let us use state & other reat featureswithout writing a class
+//there are different hooks , they are :
+
+/* 
+1. useState -to manage state in func comp
+2. useSelector - to read the state from redux store
+3. useDispatch - to dispatch action from react comp
+4. useRef - to get the ref
+5. useMemo & useCallback - to improve the performance & for memoization
+6. useContectPath - props drilling 
+7. useReducer - to manage state 
+8. useImperativeHandle
+9. useLayoutEffect -
+10. useDebugValue -
+11.useDefferedValue-
+12.useID -
+13. useTaskList -
+14. useMemoizedProps - 
+
+*/
