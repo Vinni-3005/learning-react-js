@@ -1,5 +1,7 @@
 import React,{Component} from 'react'
-import Login from './login/login'
+import Register from './hooks-exmp/hooks1'
+//import styles from "./one.css";
+//import "./one.css"
 
 
 
@@ -11,7 +13,7 @@ class App extends Component {
       
         <h1>Form Handling example </h1>
         <hr/>
-        <Login />
+        <Register />
         
     </div>
 
